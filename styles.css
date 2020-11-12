@@ -1,0 +1,63 @@
+header {
+    margin: 45px 20px 20px;
+    font-family: sans-serif; 
+}
+header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+}
+.logo > img {
+    height: 100%;
+}
+
+.navbar {
+    width: 70%;
+    text-align: center;
+}
+
+li{
+    display: inline;
+}
+
+.nav-enlace{
+    display: inline;
+    margin: 25px 25px;
+    text-decoration: none;
+    color: #025157;
+}
+
+.options{
+    width: 15%;
+    text-align: right;
+}
+
+.options> * {
+    margin:10px 10px;
+    font-size: 14px;
+}
+
+.options{
+    display: inline;
+}
+
+.registro{
+    color: #025157;
+    font-weight: 700;
+}
+
+button{
+    color: #fff;
+    background-color:#67b54b;
+    font-weight: 600;
+    padding: 14px 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover{
+    background-color: #025157;
+}
+
