@@ -4,9 +4,15 @@ body{
 h1{
     font-family: vesterbroextrabold,Arial,sans-serif;
     color: #025157;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
 }
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+
 
 /*Barra de navegación*/
 header {
@@ -74,16 +80,29 @@ button:hover{
 
 
 
-/*Ejercicio 2*/
+/*Publicidad 2*/
 .container-promo{
     display: flex;
+   
+}
+.explanatory-video{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.explanatory-video img {
+    width: 120px;
+    margin-top: 10px;
 }
 
 .publicidad > h3 {
     font-family: vesterbroextrabold,Arial,sans-serif;
     color: #025157;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 48px;
+  
 }
 
 .publicidad > p {
@@ -117,24 +136,10 @@ input{
     outline: none;
 }
 
-.container-video{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.container-video img {
-    width: 120px;
-    margin-top: 10px;
-}
-
-.video{
-    width: 500px;
-}
 
 
 
-/*Ejercicio 3*/
+/*Ejercicio 3 Cards*/
 .grid-container{
     display:grid;
     grid-template-columns: repeat(2,1fr);
@@ -145,13 +150,13 @@ input{
 article{
     width: 95%;
     height: 290px;
-    border-radius: 10px;
     margin: 10px;
 }
   
 img{
    max-width: 100%;
 }
+
 
 
 /*Media queries*/
@@ -167,7 +172,8 @@ img{
 
     h1 {
         color: #c54a03;
-        font-size: 50px;
+        font-size: 30px;
+        margin-bottom: 50px;
     }
 
     .banner > img {
@@ -176,7 +182,6 @@ img{
 
     .container-promo {
         flex-direction: column;
-        max-width: 90%;
     }
 
     .container-video{
@@ -200,7 +205,6 @@ img{
     .container-form-registro > form > div{
         height: 50px;
         margin-top: 10px;
-        
     }
   
     .container-form-registro > form > div > input{
